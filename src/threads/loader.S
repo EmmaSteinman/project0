@@ -194,7 +194,12 @@ next_char:
 1:	pop %ax
 	xchg %si, %ss:(%esp)
 	ret
+> If you have any preliminary comments on your submission, notes for the
+> TAs, or extra credit, please give them here.
 
+> Please cite any offline or online sources you consulted while
+> preparing your submission, other than the Pintos documentation, course
+> text, lecture notes, and course staff
 #### Character output subroutine.  Prints the character in AL to the
 #### VGA display and serial port 0, using BIOS services (see
 #### [IntrList]).  Preserves all general-purpose registers.

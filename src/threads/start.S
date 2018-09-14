@@ -176,6 +176,7 @@ start:
 	movl $0, %ebp			# Null-terminate main()'s backtrace
 
 #### Call pintos_init().
+#### TODO: use gdb to trace call into pintos_init()
 
 	call pintos_init
 
@@ -201,4 +202,3 @@ gdtdesc:
 .globl init_ram_pages
 init_ram_pages:
 	.long 0
-
